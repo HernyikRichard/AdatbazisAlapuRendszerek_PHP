@@ -1,0 +1,281 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #900c3e;
+}
+.mezo{
+    text-align: center;
+    background-color: #ff5733;
+    margin-left:15%;
+    margin-right: 15%;
+    padding-bottom: 2%;
+    font-size: 12px;
+}
+.kieg{
+    align-items: center;
+    text-align: center;
+}
+
+.reg-container{
+    color: #571845;
+}
+.reg-container h1{
+    text-align: center;
+    font-size: 40px;
+}
+.reg-form{
+    margin: 20px auto;
+    width: 600px;
+    align-items: center;
+    color: dimgray;
+}
+.reg-inputs{
+    padding: 10px;
+    font-size: 15px;
+}
+.reg-inputs[type="text"], [type="email"],[type="password"]{
+    display: block;
+    margin-bottom: 20px;
+    width: 344px;
+    border: 2px solid #571845;
+    text-align: center;
+    position: relative;
+    left: 128px;
+}
+.reg-inputs[type="submit"]{
+    width: 344px;
+    height: 60px;
+    border: none;
+    background-color: #571845;
+    color: white;
+    transition: 0.5s;
+}
+.reg-inputs-reg[type="submit"]{
+    width: 366px;
+    height: 60px;
+    border: none;
+    background-color: #571845;
+    color: white;
+    transition: 0.5s;
+}
+.reg-inputs[type="submit"]:hover{
+    transition: 0.5s;
+    background-color: #900c3e;
+}
+.reg-inputs-reg[type="submit"]:hover{
+    transition: 0.5s;
+    background-color: #900c3e;
+}
+
+.control{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #571845;
+    font-weight: bold;
+}
+
+.elem{
+    float: left;
+}
+
+.elem a{
+    display: block;
+    color: aliceblue;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+}
+.elem .ref{
+    padding: 22px 16px;
+}
+.elem a:hover{
+    background-color: #900c3e;
+}
+.elem a i{
+    font-size: 30px;
+    padding: 15px 16px;
+    margin: 0;
+}
+.palya-in{
+    resize: none;
+    display: block;
+    height: 300px;
+    width: 600px;
+}
+.palya-sub{
+    width: 600px;
+    height: 60px;
+    border: none;
+    background-color: #571845;
+    color: white;
+    transition: 0.5s;
+}
+.palya-sub:hover{
+    transition: 0.5s;
+    background-color: #900c3e;
+}
+.palya-n{
+    display: block;
+    width: 598px;
+    height: 30px;
+    border: 2px solid #571845;
+    text-align: center;
+}
+.palya-date{
+    border: none;
+    height: 30px;
+    width: 298px;
+}
+
+.kep-fel-file{
+    color: white;
+    width: 600px;
+}
+.kep-fel-text{
+    resize: none;
+    height: 30px;
+    width: 600px;
+    display: block;
+    border: none;
+}
+.kep-fel-list{
+    margin-left: 0px;
+    background-color: #571845;
+    color: #ff5733;
+    width: 600px;
+    height: 50px;
+    border: none;
+    transition: 0.5s;
+
+}
+.kep-fel-list:hover{
+    background-color:#900c3e;
+    transition: 0.5s;
+}
+.entiti{
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.entiti-elem{
+    padding: 0px;
+}
+.kep{
+    position: relative;
+    left: 1%;
+    top: 10px;
+    height: 300px;
+    width: 180px;
+    background-color: #900c3e;
+    border-radius: 10%;
+}
+.kep-img{
+    position: relative;
+    top: 10px;
+    height: 160px;
+    width: 120px;
+    border-radius: 30%;
+}
+.profil-nev{
+    color: white;
+    font-size: 14px;
+    position: relative;
+    top: 10px;
+
+}
+
+.carnal{
+    position: relative;
+    top: 10px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.card{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10%;
+    height: 300px;
+}
+.card img{
+    height:45vh;
+    border-radius: 10%;
+}
+.elem-jelszo{
+    position: relative;
+    width: 130px;
+    background-color: #ffc300;
+}
+.profil-jelszo{
+    position: absolute;
+    top: 100px;
+    left:380px;
+    width: 130px;
+    height: 120px;
+    background-color: #ffc300;
+    transition: 0.5s;
+}
+.kep-s{
+    height: 300px;
+    width: 210px;
+    object-fit: scale-down;
+}
+.kep-prof{
+    height: 200px;
+    width: 140px;
+    object-fit: scale-down;
+}
+
+.kereso{
+    width: 130px;
+    box-sizing: border-box;
+    border: none;
+    color: aliceblue;
+    border-radius: 1px;
+    font-size: 16px;
+    background-color: #900c3e;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 20px 16px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+.kereso:focus{
+    width: 100%;
+}
+
+.like{
+    position: relative;
+    top: -20px;
+    width: 30px;
+    padding: 0;
+    text-align: left;
+
+}
+.dislike{
+    position: relative;
+    top: -47px;
+    width: 30px;
+    padding: 0;
+    left: 180px;
+    text-align: right;
+}
+card-index{
+
+}

@@ -1,0 +1,44 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/Style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<?php
+include "methods/csatlakozas.php";
+include "methods/genMethods.php";
+include_once "user/userS.php";
+?>
+<body>
+<ul class="control">
+    <?php
+    echo '<li class="elem"><a class="ref" href="index.php">Kezdőlap</a></li>';
+    if(isset($_SESSION["user"])){
+        echo '
+            <li class="elem"><a class="ref" href="kepfeltolt.php">Kepfeltoltes</a></li>
+            <li class="elem" style="float:right">
+                <a href="logout.php">
+                    <i class="material-icons">
+                        logout
+                    </i>
+                </a>
+            </li>
+            <li class="elem" style="float:right">
+                <a href="profile.php">
+                    <i class="material-icons">
+                        portrait
+                    </i>
+                </a>
+            </li>
+        ';
+    }else{
+        echo ' <li class="elem"><a class="ref" href="login.php">Bejelentkezes</a></li>';
+    }
+    ?>
+
+</ul>
+<div class="mezo">
+
+</div>
+</body>
+</html>
